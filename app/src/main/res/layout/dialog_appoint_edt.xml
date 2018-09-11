@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@color/peagreen"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提示"
+            android:textColor="@color/white"
+            android:id="@+id/tv_title"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入登出密码"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:id="@+id/edt_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_click_green_commal"
+            android:id="@+id/bt_cacnel"
+            />
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="确定"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_click_green_commal"
+            android:id="@+id/bt_sure"
+            />
+    </LinearLayout>
+</LinearLayout>
